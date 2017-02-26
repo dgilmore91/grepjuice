@@ -1,4 +1,14 @@
+# Ignore statements for virtualenv files - see README for initial setup of project.
+
+/bin
+/lib
+/include
+.python
+pip-selfcheck.json
+
+# Do not commit results to repo
 
 search_results.txt
 
+# Do not commit compiled python to repo
 *.pyc
